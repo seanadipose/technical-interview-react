@@ -1,2 +1,2 @@
-# technical-interview-react
+# technical-interview
 Created with CodeSandbox
