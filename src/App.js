@@ -5,7 +5,7 @@ import { ReactSection } from "./ReactSection";
 import { CssSection } from "./CssSection";
 
 export default function App() {
-  const initial = localStorage.getItem("page");
+  const initial = localStorage.getItem("page") ?? 0;
   const [page, setPage] = useState(initial);
 
   useEffect(() => {
